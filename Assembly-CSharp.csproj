@@ -53,6 +53,7 @@
   <ItemGroup>
      <Compile Include="Assets\_Scripts\CameraMOV.cs" />
      <Compile Include="Assets\_Scripts\SkryptMenu.cs" />
+     <Compile Include="Assets\_Scripts\SkryptPauzy.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/PROGRAMY/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

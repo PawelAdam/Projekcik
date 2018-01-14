@@ -122,7 +122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4438727}
   - component: {fileID: 4438728}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -195,7 +195,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9824611}
   - component: {fileID: 9824612}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -513,7 +513,7 @@ GameObject:
   m_Component:
   - component: {fileID: 19007032}
   - component: {fileID: 19007033}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_8 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -586,7 +586,7 @@ GameObject:
   m_Component:
   - component: {fileID: 20478490}
   - component: {fileID: 20478491}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -659,7 +659,7 @@ GameObject:
   m_Component:
   - component: {fileID: 38612676}
   - component: {fileID: 38612675}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: stars (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -699,7 +699,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 9ae1c1f67407142418bdc42db255a928, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -732,7 +732,7 @@ GameObject:
   m_Component:
   - component: {fileID: 43688921}
   - component: {fileID: 43688922}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -805,7 +805,7 @@ GameObject:
   m_Component:
   - component: {fileID: 52596777}
   - component: {fileID: 52596778}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -869,6 +869,128 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &68071998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 68071999}
+  - component: {fileID: 68072002}
+  - component: {fileID: 68072001}
+  - component: {fileID: 68072000}
+  m_Layer: 5
+  m_Name: "MenuG\u0142\xF3wne"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &68071999
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 68071998}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1606575291}
+  m_Father: {fileID: 1201277293}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -111}
+  m_SizeDelta: {x: 333.8, y: 79.4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &68072000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 68071998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.7647059, g: 0.7647059, b: 0.7647059, a: 1}
+    m_PressedColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 68072001}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2118405098}
+        m_MethodName: PowortMenuGlowne
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &68072001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 68071998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.666}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &68072002
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 68071998}
 --- !u!1 &73191351
 GameObject:
   m_ObjectHideFlags: 0
@@ -878,7 +1000,7 @@ GameObject:
   m_Component:
   - component: {fileID: 73191352}
   - component: {fileID: 73191353}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -951,7 +1073,7 @@ GameObject:
   m_Component:
   - component: {fileID: 83242309}
   - component: {fileID: 83242310}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1024,7 +1146,7 @@ GameObject:
   m_Component:
   - component: {fileID: 86053117}
   - component: {fileID: 86053118}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1097,7 +1219,7 @@ GameObject:
   m_Component:
   - component: {fileID: 89091731}
   - component: {fileID: 89091732}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1170,7 +1292,7 @@ GameObject:
   m_Component:
   - component: {fileID: 103652451}
   - component: {fileID: 103652452}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (107)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1243,7 +1365,7 @@ GameObject:
   m_Component:
   - component: {fileID: 116590265}
   - component: {fileID: 116590266}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1316,7 +1438,7 @@ GameObject:
   m_Component:
   - component: {fileID: 129596270}
   - component: {fileID: 129596271}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1389,7 +1511,7 @@ GameObject:
   m_Component:
   - component: {fileID: 130972404}
   - component: {fileID: 130972405}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (100)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1462,7 +1584,7 @@ GameObject:
   m_Component:
   - component: {fileID: 138647968}
   - component: {fileID: 138647969}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1535,7 +1657,7 @@ GameObject:
   m_Component:
   - component: {fileID: 141328558}
   - component: {fileID: 141328557}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: night_cloud_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1575,7 +1697,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: c9b86aa91ee38c84daed831d68d787a6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1608,7 +1730,7 @@ GameObject:
   m_Component:
   - component: {fileID: 142504366}
   - component: {fileID: 142504365}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: night_cloud_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1648,7 +1770,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 1bb935d562f057b4b8f5e4bcb9a27365, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1681,7 +1803,7 @@ GameObject:
   m_Component:
   - component: {fileID: 163251690}
   - component: {fileID: 163251691}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1754,7 +1876,7 @@ GameObject:
   m_Component:
   - component: {fileID: 163613574}
   - component: {fileID: 163613575}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1827,7 +1949,7 @@ GameObject:
   m_Component:
   - component: {fileID: 182781936}
   - component: {fileID: 182781937}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (99)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1900,7 +2022,7 @@ GameObject:
   m_Component:
   - component: {fileID: 198572327}
   - component: {fileID: 198572328}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1973,7 +2095,7 @@ GameObject:
   m_Component:
   - component: {fileID: 200104032}
   - component: {fileID: 200104033}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2046,7 +2168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 200944184}
   - component: {fileID: 200944185}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2119,7 +2241,7 @@ GameObject:
   m_Component:
   - component: {fileID: 208177506}
   - component: {fileID: 208177507}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_8 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2192,7 +2314,7 @@ GameObject:
   m_Component:
   - component: {fileID: 209873819}
   - component: {fileID: 209873820}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2265,7 +2387,7 @@ GameObject:
   m_Component:
   - component: {fileID: 211487579}
   - component: {fileID: 211487580}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (86)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2338,7 +2460,7 @@ GameObject:
   m_Component:
   - component: {fileID: 223945785}
   - component: {fileID: 223945786}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (93)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2411,7 +2533,7 @@ GameObject:
   m_Component:
   - component: {fileID: 227542075}
   - component: {fileID: 227542076}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2484,7 +2606,7 @@ GameObject:
   m_Component:
   - component: {fileID: 227717502}
   - component: {fileID: 227717501}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: stars (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2524,7 +2646,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 9ae1c1f67407142418bdc42db255a928, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2557,7 +2679,7 @@ GameObject:
   m_Component:
   - component: {fileID: 228131643}
   - component: {fileID: 228131644}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_5 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2630,7 +2752,7 @@ GameObject:
   m_Component:
   - component: {fileID: 228450458}
   - component: {fileID: 228450459}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2694,6 +2816,68 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &229986736
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 229986739}
+  - component: {fileID: 229986738}
+  - component: {fileID: 229986737}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &229986737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 229986736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &229986738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 229986736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 5
+--- !u!4 &229986739
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 229986736}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &235981233
 GameObject:
   m_ObjectHideFlags: 0
@@ -2703,7 +2887,7 @@ GameObject:
   m_Component:
   - component: {fileID: 235981234}
   - component: {fileID: 235981235}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2776,7 +2960,7 @@ GameObject:
   m_Component:
   - component: {fileID: 246280387}
   - component: {fileID: 246280388}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_8 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2849,7 +3033,7 @@ GameObject:
   m_Component:
   - component: {fileID: 256172315}
   - component: {fileID: 256172316}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2922,7 +3106,7 @@ GameObject:
   m_Component:
   - component: {fileID: 260043521}
   - component: {fileID: 260043522}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (65)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2995,7 +3179,7 @@ GameObject:
   m_Component:
   - component: {fileID: 292038602}
   - component: {fileID: 292038603}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3068,7 +3252,7 @@ GameObject:
   m_Component:
   - component: {fileID: 292714115}
   - component: {fileID: 292714116}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3141,7 +3325,7 @@ GameObject:
   m_Component:
   - component: {fileID: 297466934}
   - component: {fileID: 297466935}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3214,7 +3398,7 @@ GameObject:
   m_Component:
   - component: {fileID: 302017855}
   - component: {fileID: 302017856}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3287,7 +3471,7 @@ GameObject:
   m_Component:
   - component: {fileID: 303624333}
   - component: {fileID: 303624334}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3360,7 +3544,7 @@ GameObject:
   m_Component:
   - component: {fileID: 316016038}
   - component: {fileID: 316016037}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: moon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3400,7 +3584,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: b329a2b348b9c66479437d4cd3fd2d39, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3433,7 +3617,7 @@ GameObject:
   m_Component:
   - component: {fileID: 316364950}
   - component: {fileID: 316364951}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3506,7 +3690,7 @@ GameObject:
   m_Component:
   - component: {fileID: 321479572}
   - component: {fileID: 321479573}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3579,7 +3763,7 @@ GameObject:
   m_Component:
   - component: {fileID: 321788047}
   - component: {fileID: 321788048}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_8 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3652,7 +3836,7 @@ GameObject:
   m_Component:
   - component: {fileID: 337484154}
   - component: {fileID: 337484155}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_8 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3725,7 +3909,7 @@ GameObject:
   m_Component:
   - component: {fileID: 347277364}
   - component: {fileID: 347277365}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3798,7 +3982,7 @@ GameObject:
   m_Component:
   - component: {fileID: 363689574}
   - component: {fileID: 363689575}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (66)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3871,7 +4055,7 @@ GameObject:
   m_Component:
   - component: {fileID: 369329471}
   - component: {fileID: 369329472}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3944,7 +4128,7 @@ GameObject:
   m_Component:
   - component: {fileID: 374142462}
   - component: {fileID: 374142463}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4017,7 +4201,7 @@ GameObject:
   m_Component:
   - component: {fileID: 381367086}
   - component: {fileID: 381367087}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4090,7 +4274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 388324044}
   - component: {fileID: 388324045}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4163,7 +4347,7 @@ GameObject:
   m_Component:
   - component: {fileID: 397104258}
   - component: {fileID: 397104259}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4236,7 +4420,7 @@ GameObject:
   m_Component:
   - component: {fileID: 399743168}
   - component: {fileID: 399743169}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4309,7 +4493,7 @@ GameObject:
   m_Component:
   - component: {fileID: 418885510}
   - component: {fileID: 418885511}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4382,7 +4566,7 @@ GameObject:
   m_Component:
   - component: {fileID: 424272267}
   - component: {fileID: 424272268}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (68)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4455,7 +4639,7 @@ GameObject:
   m_Component:
   - component: {fileID: 425702507}
   - component: {fileID: 425702508}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4528,7 +4712,7 @@ GameObject:
   m_Component:
   - component: {fileID: 426180816}
   - component: {fileID: 426180817}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4601,7 +4785,7 @@ GameObject:
   m_Component:
   - component: {fileID: 453067117}
   - component: {fileID: 453067118}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_8 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4674,7 +4858,7 @@ GameObject:
   m_Component:
   - component: {fileID: 466372500}
   - component: {fileID: 466372501}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4747,7 +4931,7 @@ GameObject:
   m_Component:
   - component: {fileID: 470158033}
   - component: {fileID: 470158034}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4820,7 +5004,7 @@ GameObject:
   m_Component:
   - component: {fileID: 475970935}
   - component: {fileID: 475970936}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_21 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4893,7 +5077,7 @@ GameObject:
   m_Component:
   - component: {fileID: 476383159}
   - component: {fileID: 476383160}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_8 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4966,7 +5150,7 @@ GameObject:
   m_Component:
   - component: {fileID: 491058219}
   - component: {fileID: 491058220}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5039,7 +5223,7 @@ GameObject:
   m_Component:
   - component: {fileID: 494591366}
   - component: {fileID: 494591367}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5112,7 +5296,7 @@ GameObject:
   m_Component:
   - component: {fileID: 496120824}
   - component: {fileID: 496120825}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (91)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5185,7 +5369,7 @@ GameObject:
   m_Component:
   - component: {fileID: 512749637}
   - component: {fileID: 512749638}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5258,7 +5442,7 @@ GameObject:
   m_Component:
   - component: {fileID: 523688945}
   - component: {fileID: 523688946}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5331,7 +5515,7 @@ GameObject:
   m_Component:
   - component: {fileID: 524482149}
   - component: {fileID: 524482150}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5404,7 +5588,7 @@ GameObject:
   m_Component:
   - component: {fileID: 532311605}
   - component: {fileID: 532311606}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_8 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5519,7 +5703,7 @@ GameObject:
   m_Component:
   - component: {fileID: 541864845}
   - component: {fileID: 541864846}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5592,7 +5776,7 @@ GameObject:
   m_Component:
   - component: {fileID: 545755524}
   - component: {fileID: 545755523}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: stars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5632,7 +5816,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 9ae1c1f67407142418bdc42db255a928, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5665,7 +5849,7 @@ GameObject:
   m_Component:
   - component: {fileID: 548788074}
   - component: {fileID: 548788075}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5738,7 +5922,7 @@ GameObject:
   m_Component:
   - component: {fileID: 552293769}
   - component: {fileID: 552293770}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (102)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5811,7 +5995,7 @@ GameObject:
   m_Component:
   - component: {fileID: 555324738}
   - component: {fileID: 555324739}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (63)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5884,7 +6068,7 @@ GameObject:
   m_Component:
   - component: {fileID: 559958718}
   - component: {fileID: 559958719}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (77)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5957,7 +6141,7 @@ GameObject:
   m_Component:
   - component: {fileID: 566318900}
   - component: {fileID: 566318901}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_8 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6030,7 +6214,7 @@ GameObject:
   m_Component:
   - component: {fileID: 583340591}
   - component: {fileID: 583340592}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6094,6 +6278,128 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &585080607
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 585080608}
+  - component: {fileID: 585080611}
+  - component: {fileID: 585080610}
+  - component: {fileID: 585080609}
+  m_Layer: 5
+  m_Name: "Wyjd\u017AZGry"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &585080608
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 585080607}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 942404845}
+  m_Father: {fileID: 1201277293}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -205.32861}
+  m_SizeDelta: {x: 333.8, y: 79.4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &585080609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 585080607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.7647059, g: 0.7647059, b: 0.7647059, a: 1}
+    m_PressedColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 585080610}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2118405098}
+        m_MethodName: ZakonczenieZatwierdzone
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &585080610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 585080607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.666}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &585080611
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 585080607}
 --- !u!1 &602008070
 GameObject:
   m_ObjectHideFlags: 0
@@ -6103,7 +6409,7 @@ GameObject:
   m_Component:
   - component: {fileID: 602008071}
   - component: {fileID: 602008072}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6176,7 +6482,7 @@ GameObject:
   m_Component:
   - component: {fileID: 602047937}
   - component: {fileID: 602047936}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: stars (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6216,7 +6522,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 9ae1c1f67407142418bdc42db255a928, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6249,7 +6555,7 @@ GameObject:
   m_Component:
   - component: {fileID: 607104101}
   - component: {fileID: 607104102}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (85)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6322,7 +6628,7 @@ GameObject:
   m_Component:
   - component: {fileID: 621630721}
   - component: {fileID: 621630722}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_5 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6395,7 +6701,7 @@ GameObject:
   m_Component:
   - component: {fileID: 637696335}
   - component: {fileID: 637696336}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (78)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6468,7 +6774,7 @@ GameObject:
   m_Component:
   - component: {fileID: 640605499}
   - component: {fileID: 640605500}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (76)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6541,7 +6847,7 @@ GameObject:
   m_Component:
   - component: {fileID: 641394556}
   - component: {fileID: 641394557}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_21 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6614,7 +6920,7 @@ GameObject:
   m_Component:
   - component: {fileID: 656037284}
   - component: {fileID: 656037285}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6687,7 +6993,7 @@ GameObject:
   m_Component:
   - component: {fileID: 664882504}
   - component: {fileID: 664882505}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6760,7 +7066,7 @@ GameObject:
   m_Component:
   - component: {fileID: 676005585}
   - component: {fileID: 676005586}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_8 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6833,7 +7139,7 @@ GameObject:
   m_Component:
   - component: {fileID: 691254370}
   - component: {fileID: 691254371}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6906,7 +7212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 691661556}
   - component: {fileID: 691661557}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_8 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6979,7 +7285,7 @@ GameObject:
   m_Component:
   - component: {fileID: 696463063}
   - component: {fileID: 696463064}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7052,7 +7358,7 @@ GameObject:
   m_Component:
   - component: {fileID: 702141419}
   - component: {fileID: 702141420}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (57)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7125,7 +7431,7 @@ GameObject:
   m_Component:
   - component: {fileID: 704735347}
   - component: {fileID: 704735348}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7198,7 +7504,7 @@ GameObject:
   m_Component:
   - component: {fileID: 718405226}
   - component: {fileID: 718405225}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: night_cloud_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7238,7 +7544,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: c9b86aa91ee38c84daed831d68d787a6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7271,7 +7577,7 @@ GameObject:
   m_Component:
   - component: {fileID: 731264937}
   - component: {fileID: 731264938}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (73)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7335,6 +7641,128 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &738080197
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 738080198}
+  - component: {fileID: 738080201}
+  - component: {fileID: 738080200}
+  - component: {fileID: 738080199}
+  m_Layer: 5
+  m_Name: "Wr\xF3\u0107DoGry"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &738080198
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 738080197}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2077457750}
+  m_Father: {fileID: 1201277293}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.000011444001, y: 78}
+  m_SizeDelta: {x: 333.8, y: 79.4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &738080199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 738080197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.7647059, g: 0.7647059, b: 0.7647059, a: 1}
+    m_PressedColor: {r: 0.50735295, g: 0.50735295, b: 0.50735295, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 738080200}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2118405098}
+        m_MethodName: Wznowienie
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &738080200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 738080197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.666}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &738080201
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 738080197}
 --- !u!1 &747538100
 GameObject:
   m_ObjectHideFlags: 0
@@ -7344,7 +7772,7 @@ GameObject:
   m_Component:
   - component: {fileID: 747538101}
   - component: {fileID: 747538102}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (75)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7417,7 +7845,7 @@ GameObject:
   m_Component:
   - component: {fileID: 751006999}
   - component: {fileID: 751007000}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (70)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7490,7 +7918,7 @@ GameObject:
   m_Component:
   - component: {fileID: 773151388}
   - component: {fileID: 773151389}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (69)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7563,7 +7991,7 @@ GameObject:
   m_Component:
   - component: {fileID: 777827257}
   - component: {fileID: 777827256}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: night_cloud_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7603,7 +8031,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 72094b73ecb7ad74882a974c99868661, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7636,7 +8064,7 @@ GameObject:
   m_Component:
   - component: {fileID: 797084560}
   - component: {fileID: 797084561}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7709,7 +8137,7 @@ GameObject:
   m_Component:
   - component: {fileID: 798338223}
   - component: {fileID: 798338224}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_8 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7782,7 +8210,7 @@ GameObject:
   m_Component:
   - component: {fileID: 804601414}
   - component: {fileID: 804601415}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7855,7 +8283,7 @@ GameObject:
   m_Component:
   - component: {fileID: 810864518}
   - component: {fileID: 810864519}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7928,7 +8356,7 @@ GameObject:
   m_Component:
   - component: {fileID: 819864528}
   - component: {fileID: 819864529}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8001,7 +8429,7 @@ GameObject:
   m_Component:
   - component: {fileID: 824277640}
   - component: {fileID: 824277641}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_5 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8074,7 +8502,7 @@ GameObject:
   m_Component:
   - component: {fileID: 834154724}
   - component: {fileID: 834154725}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8147,7 +8575,7 @@ GameObject:
   m_Component:
   - component: {fileID: 861483299}
   - component: {fileID: 861483300}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (92)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8220,7 +8648,7 @@ GameObject:
   m_Component:
   - component: {fileID: 863722602}
   - component: {fileID: 863722603}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8293,7 +8721,7 @@ GameObject:
   m_Component:
   - component: {fileID: 870546403}
   - component: {fileID: 870546404}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_1 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8366,7 +8794,7 @@ GameObject:
   m_Component:
   - component: {fileID: 879851689}
   - component: {fileID: 879851688}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: stars (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8406,7 +8834,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 9ae1c1f67407142418bdc42db255a928, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8439,7 +8867,7 @@ GameObject:
   m_Component:
   - component: {fileID: 886647314}
   - component: {fileID: 886647315}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8512,7 +8940,7 @@ GameObject:
   m_Component:
   - component: {fileID: 902351980}
   - component: {fileID: 902351981}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (81)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8585,7 +9013,7 @@ GameObject:
   m_Component:
   - component: {fileID: 903182213}
   - component: {fileID: 903182214}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (94)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8649,6 +9077,80 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &903954188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 903954189}
+  - component: {fileID: 903954191}
+  - component: {fileID: 903954190}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &903954189
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 903954188}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1945969269}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &903954190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 903954188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 50
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 5
+    m_MaxSize: 50
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Restart
+--- !u!222 &903954191
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 903954188}
 --- !u!1 &911782713
 GameObject:
   m_ObjectHideFlags: 0
@@ -8658,7 +9160,7 @@ GameObject:
   m_Component:
   - component: {fileID: 911782714}
   - component: {fileID: 911782715}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8731,7 +9233,7 @@ GameObject:
   m_Component:
   - component: {fileID: 921840722}
   - component: {fileID: 921840723}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_6 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8804,7 +9306,7 @@ GameObject:
   m_Component:
   - component: {fileID: 927945735}
   - component: {fileID: 927945736}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8877,7 +9379,7 @@ GameObject:
   m_Component:
   - component: {fileID: 928908789}
   - component: {fileID: 928908790}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8950,7 +9452,7 @@ GameObject:
   m_Component:
   - component: {fileID: 929665612}
   - component: {fileID: 929665613}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (101)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9014,6 +9516,80 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &942404844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 942404845}
+  - component: {fileID: 942404847}
+  - component: {fileID: 942404846}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &942404845
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 942404844}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 585080608}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &942404846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 942404844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 50
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 5
+    m_MaxSize: 50
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Wyjd\u017A z Gry"
+--- !u!222 &942404847
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 942404844}
 --- !u!1 &947211652
 GameObject:
   m_ObjectHideFlags: 0
@@ -9023,7 +9599,7 @@ GameObject:
   m_Component:
   - component: {fileID: 947211653}
   - component: {fileID: 947211654}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (62)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9096,7 +9672,7 @@ GameObject:
   m_Component:
   - component: {fileID: 960641201}
   - component: {fileID: 960641202}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_6 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9169,7 +9745,7 @@ GameObject:
   m_Component:
   - component: {fileID: 971848495}
   - component: {fileID: 971848496}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9242,7 +9818,7 @@ GameObject:
   m_Component:
   - component: {fileID: 984031677}
   - component: {fileID: 984031678}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (89)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9315,7 +9891,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1001556798}
   - component: {fileID: 1001556799}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9388,7 +9964,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1004784368}
   - component: {fileID: 1004784367}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: stars (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9428,7 +10004,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 9ae1c1f67407142418bdc42db255a928, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9461,7 +10037,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1031285426}
   - component: {fileID: 1031285425}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: stars (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9501,7 +10077,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 9ae1c1f67407142418bdc42db255a928, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9534,7 +10110,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1048495703}
   - component: {fileID: 1048495704}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (67)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9607,7 +10183,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1059391001}
   - component: {fileID: 1059391002}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (105)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9680,7 +10256,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1074154735}
   - component: {fileID: 1074154736}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9753,7 +10329,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1074464346}
   - component: {fileID: 1074464347}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_8 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9826,7 +10402,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1074649068}
   - component: {fileID: 1074649069}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9899,7 +10475,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1088535831}
   - component: {fileID: 1088535830}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: stars (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9939,7 +10515,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 9ae1c1f67407142418bdc42db255a928, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9972,7 +10548,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1092055543}
   - component: {fileID: 1092055544}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_5 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10045,7 +10621,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1098792981}
   - component: {fileID: 1098792982}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (106)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10118,7 +10694,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1102742171}
   - component: {fileID: 1102742172}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10191,7 +10767,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1108652643}
   - component: {fileID: 1108652644}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_8 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10264,7 +10840,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1108853770}
   - component: {fileID: 1108853771}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10337,7 +10913,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1122396079}
   - component: {fileID: 1122396080}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_8 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10410,7 +10986,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1127078906}
   - component: {fileID: 1127078907}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10483,7 +11059,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1129286946}
   - component: {fileID: 1129286947}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (84)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10556,7 +11132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1134590452}
   - component: {fileID: 1134590453}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10682,7 +11258,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1155796723}
   - component: {fileID: 1155796724}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10755,7 +11331,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1156046004}
   - component: {fileID: 1156046005}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_8 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10828,7 +11404,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1160153104}
   - component: {fileID: 1160153105}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10901,7 +11477,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1162433107}
   - component: {fileID: 1162433108}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (71)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10974,7 +11550,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1175953978}
   - component: {fileID: 1175953979}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11047,7 +11623,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1180462885}
   - component: {fileID: 1180462886}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11120,7 +11696,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1188351680}
   - component: {fileID: 1188351681}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11184,6 +11760,79 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &1201277292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1201277293}
+  - component: {fileID: 1201277295}
+  - component: {fileID: 1201277294}
+  m_Layer: 5
+  m_Name: PauzaUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1201277293
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1201277292}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1279453863}
+  - {fileID: 738080198}
+  - {fileID: 1945969269}
+  - {fileID: 68071999}
+  - {fileID: 585080608}
+  m_Father: {fileID: 2118405097}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1201277294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1201277292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.142}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1201277295
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1201277292}
 --- !u!1 &1204337301
 GameObject:
   m_ObjectHideFlags: 0
@@ -11193,7 +11842,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1204337302}
   - component: {fileID: 1204337303}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (79)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11266,7 +11915,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1207681504}
   - component: {fileID: 1207681505}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_8 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11339,7 +11988,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1209689294}
   - component: {fileID: 1209689295}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11412,7 +12061,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1213746341}
   - component: {fileID: 1213746342}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11485,7 +12134,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1217255187}
   - component: {fileID: 1217255188}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11558,7 +12207,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1218505013}
   - component: {fileID: 1218505012}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: stars (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11598,7 +12247,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 9ae1c1f67407142418bdc42db255a928, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11631,7 +12280,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1222794874}
   - component: {fileID: 1222794875}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11704,7 +12353,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1225712610}
   - component: {fileID: 1225712611}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11777,7 +12426,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1229338806}
   - component: {fileID: 1229338807}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (96)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11850,7 +12499,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1275877783}
   - component: {fileID: 1275877784}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (88)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11923,7 +12572,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1276656465}
   - component: {fileID: 1276656466}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11987,6 +12636,80 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &1279453862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1279453863}
+  - component: {fileID: 1279453865}
+  - component: {fileID: 1279453864}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1279453863
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1279453862}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1201277293}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.000015259, y: 203}
+  m_SizeDelta: {x: 255.7, y: 105}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1279453864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1279453862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 80
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 8
+    m_MaxSize: 80
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Pauza
+--- !u!222 &1279453865
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1279453862}
 --- !u!1 &1294889499
 GameObject:
   m_ObjectHideFlags: 0
@@ -11996,7 +12719,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1294889500}
   - component: {fileID: 1294889501}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12069,7 +12792,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1303866295}
   - component: {fileID: 1303866296}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12142,7 +12865,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1334387341}
   - component: {fileID: 1334387340}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: stars (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12182,7 +12905,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 9ae1c1f67407142418bdc42db255a928, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12215,7 +12938,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1359013881}
   - component: {fileID: 1359013882}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12288,7 +13011,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1367669592}
   - component: {fileID: 1367669593}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12361,7 +13084,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1380833651}
   - component: {fileID: 1380833652}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12434,7 +13157,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1387235664}
   - component: {fileID: 1387235665}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12507,7 +13230,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1411388430}
   - component: {fileID: 1411388431}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (74)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12580,7 +13303,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1413877388}
   - component: {fileID: 1413877389}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (108)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12653,7 +13376,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1440371314}
   - component: {fileID: 1440371315}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_6 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12726,7 +13449,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1445141037}
   - component: {fileID: 1445141038}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_6 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12799,7 +13522,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1451402432}
   - component: {fileID: 1451402433}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (109)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12872,7 +13595,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1453864347}
   - component: {fileID: 1453864346}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: stars (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12912,7 +13635,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 9ae1c1f67407142418bdc42db255a928, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12945,7 +13668,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1465984884}
   - component: {fileID: 1465984885}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13018,7 +13741,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1466408315}
   - component: {fileID: 1466408316}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_8 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13092,7 +13815,7 @@ GameObject:
   - component: {fileID: 1482000257}
   - component: {fileID: 1482000259}
   - component: {fileID: 1482000258}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13145,7 +13868,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -5
+  m_SortingOrder: -1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
@@ -16694,7 +17417,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1501784903}
   - component: {fileID: 1501784902}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: stars (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16734,7 +17457,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 9ae1c1f67407142418bdc42db255a928, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -16767,7 +17490,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1508537690}
   - component: {fileID: 1508537691}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_22 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16840,7 +17563,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1517920828}
   - component: {fileID: 1517920827}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: night_cloud_2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16880,7 +17603,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 1bb935d562f057b4b8f5e4bcb9a27365, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -16913,7 +17636,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1523142937}
   - component: {fileID: 1523142936}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: stars (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16953,7 +17676,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 9ae1c1f67407142418bdc42db255a928, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -16986,7 +17709,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1528008956}
   - component: {fileID: 1528008957}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (110)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17059,7 +17782,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1533268718}
   - component: {fileID: 1533268719}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_17 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17132,7 +17855,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1550540278}
   - component: {fileID: 1550540279}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17205,7 +17928,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1561411170}
   - component: {fileID: 1561411171}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17278,7 +18001,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1563956121}
   - component: {fileID: 1563956122}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17342,6 +18065,80 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &1606575290
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1606575291}
+  - component: {fileID: 1606575293}
+  - component: {fileID: 1606575292}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1606575291
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1606575290}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 68071999}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1606575292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1606575290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 50
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 5
+    m_MaxSize: 50
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Menu G\u0142\xF3wne"
+--- !u!222 &1606575293
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1606575290}
 --- !u!1 &1621085166
 GameObject:
   m_ObjectHideFlags: 0
@@ -17351,7 +18148,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1621085167}
   - component: {fileID: 1621085168}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_12 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17424,7 +18221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1635329253}
   - component: {fileID: 1635329254}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17497,7 +18294,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1638656761}
   - component: {fileID: 1638656762}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (59)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17570,7 +18367,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1643711397}
   - component: {fileID: 1643711398}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17643,7 +18440,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1663341730}
   - component: {fileID: 1663341731}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17810,7 +18607,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1671668381}
   - component: {fileID: 1671668380}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: night_cloud_2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17850,7 +18647,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 1bb935d562f057b4b8f5e4bcb9a27365, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -17883,7 +18680,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1688756843}
   - component: {fileID: 1688756844}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17956,7 +18753,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1698868907}
   - component: {fileID: 1698868906}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: stars (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17996,7 +18793,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 9ae1c1f67407142418bdc42db255a928, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -18029,7 +18826,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1709970501}
   - component: {fileID: 1709970502}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18102,7 +18899,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1711529887}
   - component: {fileID: 1711529888}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18176,7 +18973,7 @@ GameObject:
   - component: {fileID: 1716442722}
   - component: {fileID: 1716442724}
   - component: {fileID: 1716442723}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Foreground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18229,7 +19026,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
@@ -36591,7 +37388,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1723650188}
   - component: {fileID: 1723650189}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36664,7 +37461,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1724700503}
   - component: {fileID: 1724700504}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36737,7 +37534,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1732036447}
   - component: {fileID: 1732036448}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36810,7 +37607,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1744894569}
   - component: {fileID: 1744894570}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (103)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36883,7 +37680,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1747972454}
   - component: {fileID: 1747972455}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (72)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36956,7 +37753,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1751576656}
   - component: {fileID: 1751576657}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_16 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37029,7 +37826,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1752309296}
   - component: {fileID: 1752309297}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37102,7 +37899,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1752525817}
   - component: {fileID: 1752525818}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37175,7 +37972,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1761015368}
   - component: {fileID: 1761015369}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (104)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37248,7 +38045,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1763204121}
   - component: {fileID: 1763204122}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37321,7 +38118,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1767830853}
   - component: {fileID: 1767830852}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Night_sky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37361,7 +38158,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -780
+  m_SortingOrder: -3
   m_Sprite: {fileID: 21300000, guid: 3663222a7220cf84dae2420d4c5558c7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -37394,7 +38191,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1789948155}
   - component: {fileID: 1789948156}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37467,7 +38264,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1792764050}
   - component: {fileID: 1792764051}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (60)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37540,7 +38337,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1797551766}
   - component: {fileID: 1797551767}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37613,7 +38410,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1807651854}
   - component: {fileID: 1807651855}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (95)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37686,7 +38483,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1820885656}
   - component: {fileID: 1820885657}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37759,7 +38556,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1823793891}
   - component: {fileID: 1823793892}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37832,7 +38629,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1828361056}
   - component: {fileID: 1828361057}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (87)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37905,7 +38702,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1831988853}
   - component: {fileID: 1831988852}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: stars (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -37945,7 +38742,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 9ae1c1f67407142418bdc42db255a928, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -37978,7 +38775,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1857462709}
   - component: {fileID: 1857462710}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (98)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38051,7 +38848,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1864492047}
   - component: {fileID: 1864492048}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38124,7 +38921,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1865916865}
   - component: {fileID: 1865916866}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (111)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38197,7 +38994,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1886301213}
   - component: {fileID: 1886301214}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (97)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38270,7 +39067,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1906287317}
   - component: {fileID: 1906287318}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (64)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38343,7 +39140,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1929837925}
   - component: {fileID: 1929837926}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38416,7 +39213,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1931426128}
   - component: {fileID: 1931426129}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38489,7 +39286,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1941786786}
   - component: {fileID: 1941786787}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38553,6 +39350,128 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &1945969268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1945969269}
+  - component: {fileID: 1945969272}
+  - component: {fileID: 1945969271}
+  - component: {fileID: 1945969270}
+  m_Layer: 5
+  m_Name: Restart
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1945969269
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1945969268}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 903954189}
+  m_Father: {fileID: 1201277293}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -19}
+  m_SizeDelta: {x: 333.8, y: 79.4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1945969270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1945969268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.7647059, g: 0.7647059, b: 0.7647059, a: 1}
+    m_PressedColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1945969271}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2118405098}
+        m_MethodName: RestartPoziomu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1945969271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1945969268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.666}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1945969272
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1945969268}
 --- !u!1 &1947214580
 GameObject:
   m_ObjectHideFlags: 0
@@ -38562,7 +39481,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1947214581}
   - component: {fileID: 1947214582}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_6 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38635,7 +39554,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1960681194}
   - component: {fileID: 1960681195}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38708,7 +39627,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1968877868}
   - component: {fileID: 1968877869}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38781,7 +39700,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1981773483}
   - component: {fileID: 1981773484}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38854,7 +39773,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1989631640}
   - component: {fileID: 1989631641}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (82)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38927,7 +39846,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2000066967}
   - component: {fileID: 2000066968}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_6 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39000,7 +39919,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2013177807}
   - component: {fileID: 2013177808}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39073,7 +39992,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2027942753}
   - component: {fileID: 2027942754}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39146,7 +40065,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2035867485}
   - component: {fileID: 2035867486}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39219,7 +40138,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2041684891}
   - component: {fileID: 2041684892}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39292,7 +40211,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2045202340}
   - component: {fileID: 2045202341}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (80)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39365,7 +40284,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2055684348}
   - component: {fileID: 2055684347}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: night_cloud_3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39405,7 +40324,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 72094b73ecb7ad74882a974c99868661, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -39438,7 +40357,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2067815605}
   - component: {fileID: 2067815606}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_8 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39511,7 +40430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2073534077}
   - component: {fileID: 2073534078}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (83)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39575,6 +40494,80 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &2077457749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2077457750}
+  - component: {fileID: 2077457752}
+  - component: {fileID: 2077457751}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2077457750
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2077457749}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 738080198}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2077457751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2077457749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 50
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 5
+    m_MaxSize: 50
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Wr\xF3\u0107 do Gry"
+--- !u!222 &2077457752
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2077457749}
 --- !u!1 &2080697507
 GameObject:
   m_ObjectHideFlags: 0
@@ -39584,7 +40577,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2080697509}
   - component: {fileID: 2080697508}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: stars (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39624,7 +40617,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 9ae1c1f67407142418bdc42db255a928, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -39657,7 +40650,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2097761934}
   - component: {fileID: 2097761935}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (61)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39730,7 +40723,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2104431239}
   - component: {fileID: 2104431240}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39803,7 +40796,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2104699032}
   - component: {fileID: 2104699033}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_7 (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39876,7 +40869,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2105675718}
   - component: {fileID: 2105675719}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39949,7 +40942,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2115740324}
   - component: {fileID: 2115740325}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (90)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40013,6 +41006,113 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &2118405093
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2118405097}
+  - component: {fileID: 2118405096}
+  - component: {fileID: 2118405095}
+  - component: {fileID: 2118405094}
+  - component: {fileID: 2118405098}
+  m_Layer: 5
+  m_Name: MenuPauzy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2118405094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2118405093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &2118405095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2118405093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &2118405096
+Canvas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2118405093}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &2118405097
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2118405093}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1201277293}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &2118405098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2118405093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b33616440591d9429f4e2ce0a7df374, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PauseUI: {fileID: 1201277292}
 --- !u!1 &2122904367
 GameObject:
   m_ObjectHideFlags: 0
@@ -40022,7 +41122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2122904368}
   - component: {fileID: 2122904369}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_8 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40095,7 +41195,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2126035477}
   - component: {fileID: 2126035478}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_9 (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40168,7 +41268,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2143470626}
   - component: {fileID: 2143470627}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: grass_doodads_8 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

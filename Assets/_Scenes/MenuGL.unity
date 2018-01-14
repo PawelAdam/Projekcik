@@ -149,7 +149,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -485, y: 76.80377}
-  m_SizeDelta: {x: 260, y: 68.7}
+  m_SizeDelta: {x: 245.5, y: 64.4}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &32366581
 MonoBehaviour:
@@ -691,7 +691,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -485, y: -42}
-  m_SizeDelta: {x: 260, y: 68.7}
+  m_SizeDelta: {x: 152.8, y: 64.4}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &129904756
 MonoBehaviour:
@@ -844,7 +844,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 68.49997, y: -40.56266}
-  m_SizeDelta: {x: 110.5, y: 64.6}
+  m_SizeDelta: {x: 93.1, y: 57.4}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &149683750
 MonoBehaviour:
@@ -1001,7 +1001,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -179, y: -40.562653}
-  m_SizeDelta: {x: 110.5, y: 64.6}
+  m_SizeDelta: {x: 93.1, y: 64.6}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &535879941
 MonoBehaviour:
@@ -3650,7 +3650,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -485, y: -150}
-  m_SizeDelta: {x: 260, y: 68.7}
+  m_SizeDelta: {x: 200.6, y: 60}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &898206729
 MonoBehaviour:
@@ -4021,7 +4021,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -485, y: 243}
-  m_SizeDelta: {x: 260, y: 100}
+  m_SizeDelta: {x: 219.4, y: 121.7}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1555461066
 MonoBehaviour:
@@ -4035,7 +4035,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.32413793, g: 1, b: 0, a: 0.728}
+  m_Color: {r: 0, g: 1, b: 0.5034485, a: 0.728}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4055,7 +4055,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.91
-  m_Text: Game Title
+  m_Text: Sphere Quest
 --- !u!222 &1555461067
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4198,7 +4198,6 @@ GameObject:
   - component: {fileID: 1684834155}
   - component: {fileID: 1684834154}
   - component: {fileID: 1684834153}
-  - component: {fileID: 1684834152}
   m_Layer: 5
   m_Name: "CzyWyj\u015B\u0107"
   m_TagString: Untagged
@@ -4224,47 +4223,6 @@ RectTransform:
   m_AnchoredPosition: {x: -179.00003, y: 122}
   m_SizeDelta: {x: 358, y: 134}
   m_Pivot: {x: 0, y: 1}
---- !u!114 &1684834152
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1684834150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.3254902, g: 1, b: 0, a: 0.7294118}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.3
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1684834155}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &1684834153
 MonoBehaviour:
   m_ObjectHideFlags: 0
