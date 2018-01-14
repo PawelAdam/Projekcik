@@ -21,11 +21,11 @@ public class CameraMOV : MonoBehaviour {
         {
             transform.Translate(new Vector3(speed * Time.deltaTime, 0));
         }
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.Space))
         {
             transform.Translate(new Vector3(0,speed * Time.deltaTime));
         }
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeyCode.LeftAlt))
         {
             transform.Translate(new Vector3(0,-speed * Time.deltaTime));
         }
