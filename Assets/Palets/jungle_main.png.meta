@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 903d953c326925647a35501f4b0b151e
-timeCreated: 1515958347
+timeCreated: 1515960618
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -94,6 +94,7 @@ TextureImporter:
     21300174: jungle_main_117
     21300176: jungle_main_41
     21300178: jungle_main_42
+    21300180: jungle_main_48
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -650,7 +651,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 449
-        y: 832
+        y: 833
         width: 63
         height: 63
       alignment: 0
@@ -818,7 +819,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 321
-        y: 768
+        y: 769
         width: 63
         height: 63
       alignment: 0
@@ -832,7 +833,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 385
-        y: 768
+        y: 769
         width: 63
         height: 63
       alignment: 0
@@ -1253,6 +1254,20 @@ TextureImporter:
         serializedVersion: 2
         x: 641
         y: 576
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: jungle_main_48
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 769
         width: 63
         height: 63
       alignment: 0
