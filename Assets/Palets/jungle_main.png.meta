@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 903d953c326925647a35501f4b0b151e
-timeCreated: 1515960618
+timeCreated: 1516015329
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -370,8 +370,8 @@ TextureImporter:
       name: jungle_main_14
       rect:
         serializedVersion: 2
-        x: 65
-        y: 896
+        x: 64
+        y: 897
         width: 63
         height: 63
       alignment: 0
@@ -1154,8 +1154,8 @@ TextureImporter:
       name: jungle_main_78
       rect:
         serializedVersion: 2
-        x: 65
-        y: 576
+        x: 64
+        y: 577
         width: 63
         height: 63
       alignment: 0
@@ -1168,8 +1168,8 @@ TextureImporter:
       name: jungle_main_79
       rect:
         serializedVersion: 2
-        x: 129
-        y: 576
+        x: 128
+        y: 577
         width: 63
         height: 63
       alignment: 0
