@@ -7,6 +7,7 @@ public class SkryptMenu : MonoBehaviour
     public Canvas menuWyjscia;
     public Button przyciskRozpoczecia;
     public Button przyciskWyjscia;
+    public Button Opcje;
     void Start()
     {
         menuWyjscia = menuWyjscia.GetComponent<Canvas>();
@@ -29,6 +30,10 @@ public class SkryptMenu : MonoBehaviour
     public void PoziomStartowy()
     {
         SceneManager.LoadScene("Scene1");
+    }
+    public void Opcje2()
+    {
+        SceneManager.LoadScene("Parkour");
     }
     public void ZakonczGre()
     {

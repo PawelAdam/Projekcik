@@ -541,7 +541,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -485, y: -42}
-  m_SizeDelta: {x: 152.8, y: 64.4}
+  m_SizeDelta: {x: 499.1, y: 67.1}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &129904756
 MonoBehaviour:
@@ -581,7 +581,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 129904759}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 799027809}
+        m_MethodName: Opcje2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &129904757
@@ -644,7 +655,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.91
-  m_Text: Opcje
+  m_Text: "Tryb Zr\u0119czno\u015Bciowy"
 --- !u!222 &129904760
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3170,6 +3181,7 @@ MonoBehaviour:
   menuWyjscia: {fileID: 1645921846}
   przyciskRozpoczecia: {fileID: 32366581}
   przyciskWyjscia: {fileID: 898206729}
+  Opcje: {fileID: 0}
 --- !u!1 &812962403
 GameObject:
   m_ObjectHideFlags: 0
