@@ -54,6 +54,7 @@
      <Compile Include="Assets\_Scripts\CameraMOV.cs" />
      <Compile Include="Assets\_Scripts\HeadHook.cs" />
      <Compile Include="Assets\_Scripts\Hook.cs" />
+     <Compile Include="Assets\_Scripts\KoniecPoziomu.cs" />
      <Compile Include="Assets\_Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\_Scripts\SkryptMenu.cs" />
      <Compile Include="Assets\_Scripts\SkryptPauzy.cs" />
