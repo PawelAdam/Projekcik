@@ -140,15 +140,15 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 32366579}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -13.944747}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 799027807}
-  m_RootOrder: 1
+  m_Father: {fileID: 1970036384}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -485, y: 76.80377}
+  m_AnchoredPosition: {x: -515.93036, y: 88.1485}
   m_SizeDelta: {x: 245.5, y: 64.4}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &32366581
@@ -519,7 +519,7 @@ GameObject:
   - component: {fileID: 129904757}
   - component: {fileID: 129904756}
   m_Layer: 5
-  m_Name: Opcje
+  m_Name: TrybZrecznosciowy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -532,15 +532,15 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 129904754}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -13.944747}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 799027807}
-  m_RootOrder: 2
+  m_Father: {fileID: 1970036384}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -485, y: -42}
+  m_AnchoredPosition: {x: -515.93036, y: -30.655273}
   m_SizeDelta: {x: 499.1, y: 67.1}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &129904756
@@ -583,7 +583,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 799027809}
-        m_MethodName: Opcje2
+        m_MethodName: TrybZrecznosciowy
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3115,9 +3115,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1555461065}
-  - {fileID: 32366580}
-  - {fileID: 129904755}
-  - {fileID: 898206728}
+  - {fileID: 1970036384}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3179,9 +3177,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menuWyjscia: {fileID: 1645921846}
+  "menuG\u0142\xF3wne": {fileID: 799027806}
   przyciskRozpoczecia: {fileID: 32366581}
   przyciskWyjscia: {fileID: 898206729}
-  Opcje: {fileID: 0}
+  trybZrecznosciowy: {fileID: 129904756}
+  a123: {fileID: 1970036383}
 --- !u!1 &812962403
 GameObject:
   m_ObjectHideFlags: 0
@@ -3271,15 +3271,15 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 898206727}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -13.944747}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 799027807}
-  m_RootOrder: 3
+  m_Father: {fileID: 1970036384}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -485, y: -150}
+  m_AnchoredPosition: {x: -515.93036, y: -138.65527}
   m_SizeDelta: {x: 200.6, y: 60}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &898206729
@@ -3653,7 +3653,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000024438, y: -0.0000060797}
+  m_AnchoredPosition: {x: 0.000024438, y: 0}
   m_SizeDelta: {x: 452.3, y: 294.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1349774984
@@ -3775,7 +3775,7 @@ GameObject:
   - component: {fileID: 1555461069}
   - component: {fileID: 1555461068}
   m_Layer: 5
-  m_Name: Text
+  m_Name: "Tytu\u0142"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4285,6 +4285,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: -2.21, y: -183.98499, z: -1.639}
+--- !u!1 &1970036383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1970036384}
+  m_Layer: 0
+  m_Name: "Menu G\u0142\xF3wne"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1970036384
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1970036383}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 30.930359, y: -11.344727, z: 13.944747}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 32366580}
+  - {fileID: 129904755}
+  - {fileID: 898206728}
+  m_Father: {fileID: 799027807}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1983546304
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,33 +5,36 @@ using UnityEngine.SceneManagement;
 public class SkryptMenu : MonoBehaviour
 {
     public Canvas menuWyjscia;
+    public Canvas menuGłówne;
     public Button przyciskRozpoczecia;
     public Button przyciskWyjscia;
-    public Button Opcje;
+    public Button trybZrecznosciowy;
+    public GameObject a123;
     void Start()
     {
         menuWyjscia = menuWyjscia.GetComponent<Canvas>();
         przyciskRozpoczecia = przyciskRozpoczecia.GetComponent<Button>();
         przyciskWyjscia = przyciskWyjscia.GetComponent<Button>();
+        trybZrecznosciowy = trybZrecznosciowy.GetComponent<Button>();
         menuWyjscia.enabled = false;
     }
     public void PrzyciskWyjsciaAktywny()
     {
         menuWyjscia.enabled = true;
-        przyciskRozpoczecia.enabled = false;
-        przyciskWyjscia.enabled = false;
+        //menuGłówne.enabled = false;
+        a123.active = false;
     }
     public void PrzyciskNieAktywny()
     {
         menuWyjscia.enabled = false;
-        przyciskRozpoczecia.enabled = true;
-        przyciskWyjscia.enabled = true;
+        //menuGłówne.enabled = true;
+        a123.active = true;
     }
     public void PoziomStartowy()
     {
         SceneManager.LoadScene("Scene1");
     }
-    public void Opcje2()
+    public void TrybZrecznosciowy()
     {
         SceneManager.LoadScene("Parkour");
     }
