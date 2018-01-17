@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SkryptZycia : MonoBehaviour {
-    public GameObject zdrowie1, zdrowie2, zdrowie3, zdrowie4, zdrowie5, GameOver;
+    public GameObject zdrowie1, zdrowie2, zdrowie3, zdrowie4, zdrowie5, GameOver, Pauza;
     private int zycie;
 	// Use this for initialization
 	void Start () {
@@ -14,7 +14,7 @@ public class SkryptZycia : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0)&&!(Pauza.activeInHierarchy))
         {
             switch (zycie)
             {
