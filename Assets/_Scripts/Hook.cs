@@ -55,6 +55,7 @@ public class Hook : MonoBehaviour {
                     HookHead.transform.Translate(movementVector.x * HookSpeed * Time.deltaTime, movementVector.y * HookSpeed * Time.deltaTime, 0);
                 }else
                 {
+                    Hooked = false;
                     if (Player.GetComponent<DistanceJoint2D>() == null)
                     {
                         DistanceJoint2D dj2d = Player.AddComponent<DistanceJoint2D>();
@@ -62,7 +63,7 @@ public class Hook : MonoBehaviour {
                         dj2d.autoConfigureConnectedAnchor = false;
                         dj2d.connectedAnchor = new Vector2(StayPosition.x, StayPosition.y);
                         dj2d.enableCollision = true;
-                        dj2d.distance = 2.0f;
+                        dj2d.distance = 0.0f;
                     }
                 }
             }
@@ -70,14 +71,14 @@ public class Hook : MonoBehaviour {
             {
                 Hooked = false;
                 CurrentHookTime = 0.0f;
-                HookHead.transform.localPosition = new Vector3(0, 1.2f, 0);
+                HookHead.transform.localPosition = new Vector3(0, 0.0f, 0);
             }
         }
         if (Input.GetMouseButtonUp(0))
         {
             Hooked = false;
             CurrentHookTime = 0.0f;
-            HookHead.transform.localPosition = new Vector3(0, 1.2f, 0);
+            HookHead.transform.localPosition = new Vector3(0, 0.0f, 0);
             Triggered = false;
             Destroy(Player.GetComponent<DistanceJoint2D>());
 

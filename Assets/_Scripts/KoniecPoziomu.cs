@@ -15,7 +15,7 @@ public class KoniecPoziomu : MonoBehaviour {
 	void Update () {
     }
 
-    private void OnTriggerEnter()
+    private void OnTriggerEnter2D()
     {
         SceneManager.LoadScene("Parkour 2");
     }
