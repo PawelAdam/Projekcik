@@ -15,6 +15,7 @@ public class Hook : MonoBehaviour {
     public bool Hooked;
     public bool Triggered;
     public Vector3 StayPosition;
+    private DistanceJoint2D dj2d;
 
     // Use this for initialization
     void Start () {
@@ -31,6 +32,7 @@ public class Hook : MonoBehaviour {
         if(Triggered)
         {
             HookHead.transform.position = StayPosition;
+
         }
         if (Input.GetMouseButtonDown(0) && Hooked == false)
         {
@@ -63,7 +65,7 @@ public class Hook : MonoBehaviour {
                         dj2d.autoConfigureConnectedAnchor = false;
                         dj2d.connectedAnchor = new Vector2(StayPosition.x, StayPosition.y);
                         dj2d.enableCollision = true;
-                        dj2d.distance = 0.0f;
+                        dj2d.distance = 2.0f;
                     }
                 }
             }
