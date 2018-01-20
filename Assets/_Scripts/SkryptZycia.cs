@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SkryptZycia : MonoBehaviour {
     public GameObject zdrowie1, zdrowie2, zdrowie3, zdrowie4, zdrowie5, GameOver;
-    private int zycie;
+    public int zycie;
 	// Use this for initialization
 	void Start () {
         zycie = 5;
