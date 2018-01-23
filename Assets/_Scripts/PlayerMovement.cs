@@ -10,15 +10,19 @@ public class PlayerMovement : MonoBehaviour {
     public GameObject Hook;
     private bool isGrounded;
     private Camera cam;
+    public int disabledLeft;
+    public int disabledRight;
 
     void Start () {
         isGrounded = false;
         cam = Camera.main;
+        disabledLeft = 0;
+        disabledRight = 0;
     }
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.A) && disabledLeft == 0)
         {
             transform.Translate(new Vector3(-Speed * Time.deltaTime, 0, 0));
         }
@@ -61,5 +65,4 @@ public class PlayerMovement : MonoBehaviour {
             isGrounded = true;
         }
     }
-
 }
