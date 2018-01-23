@@ -4,20 +4,17 @@ using UnityEngine;
 
 public class SkryptZycia : MonoBehaviour {
     public GameObject zdrowie1, zdrowie2, zdrowie3, zdrowie4, zdrowie5, GameOver;
-    private int zycie;
-   
-    //Use this for initialization
-
-   void Start ()
-   {
+    public int zycie;
+	// Use this for initialization
+	void Start () {
         zycie = 5;
         GameOver.SetActive(false);
-   }
+	}
+	
+	// Update is called once per frame
+	void Update () {
 
-
-    public void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.tag == "Enemy")
+        if (Input.GetMouseButtonDown(0))
         {
             switch (zycie)
             {
@@ -54,7 +51,7 @@ public class SkryptZycia : MonoBehaviour {
                         break;
                     }
             }
-
         }
-    }
+		
+	}
 }
