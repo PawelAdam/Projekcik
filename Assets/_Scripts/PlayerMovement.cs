@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour {
     private Camera cam;
     public int disabledLeft;
     public int disabledRight;
+    public AudioSource jump;
 
     void Start () {
         isGrounded = false;
@@ -37,6 +38,7 @@ public class PlayerMovement : MonoBehaviour {
             {  
                 isGrounded = false;
                 transform.GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpForce));
+                jump.Play();
             }
         }
 
