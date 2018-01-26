@@ -34,7 +34,7 @@ public class Hook : MonoBehaviour {
             HookHead.transform.position = StayPosition;
 
         }
-        if (Input.GetMouseButtonDown(0) && Hooked == false)
+        if (Input.GetMouseButtonDown(1) && Hooked == false)
         {
 
             float camDis = cam.transform.position.y - transform.position.y;
@@ -47,7 +47,7 @@ public class Hook : MonoBehaviour {
             Hooked = true;
         }
 
-        if (Input.GetMouseButton(0) && Hooked)
+        if (Input.GetMouseButton(1) && Hooked)
         {
             if (CurrentHookTime < HookTime)
             {
@@ -76,7 +76,7 @@ public class Hook : MonoBehaviour {
                 HookHead.transform.localPosition = new Vector3(0, 0.0f, 0);
             }
         }
-        if (Input.GetMouseButtonUp(0))
+        if (Input.GetMouseButtonUp(1))
         {
             Hooked = false;
             CurrentHookTime = 0.0f;

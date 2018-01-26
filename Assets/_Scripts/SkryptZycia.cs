@@ -8,9 +8,12 @@ public class SkryptZycia : MonoBehaviour {
     public Image[] HP;
     public int PlayerHP;
     private bool enemyCollision;
+    public Text GameOver;
+
 	// Use this for initialization
 	void Start () {
         enemyCollision = false;
+        GameOver.enabled = false;
     }
 	
 	// Update is called once per frame
@@ -18,15 +21,19 @@ public class SkryptZycia : MonoBehaviour {
 
         if (enemyCollision)
         {
+            
             enemyCollision = false;
            if(PlayerHP > 0)
             {
                 PlayerHP--;
                 HP[PlayerHP].enabled = false;
-            }else
-            {
-              //Koniec Gry  
             }
+        }
+
+        if(PlayerHP == 1)
+        {
+            //Koniec Gry  
+            GameOver.enabled = true;
         }
 	}
     public void OnCollisionEnter2D(Collision2D collision)
