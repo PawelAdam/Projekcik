@@ -42,4 +42,14 @@ public class EnemyLife : MonoBehaviour {
             collided = false;
         }
     }
+
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Bullet")
+        {
+            EnemyHP--;
+            Destroy(HP[EnemyHP]);
+            collided = true;
+        }
+    }
 }

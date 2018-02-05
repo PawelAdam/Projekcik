@@ -221,6 +221,7 @@
   <ItemGroup>
     <Compile Include="Assets\_Scripts\AIMovement.cs" />
     <Compile Include="Assets\_Scripts\AIWeaponDetect.cs" />
+    <Compile Include="Assets\_Scripts\Bullet.cs" />
     <Compile Include="Assets\_Scripts\CameraMOV.cs" />
     <Compile Include="Assets\_Scripts\EnemyLife.cs" />
     <Compile Include="Assets\_Scripts\HeadHook.cs" />
@@ -230,6 +231,7 @@
     <Compile Include="Assets\_Scripts\SkryptMenu.cs" />
     <Compile Include="Assets\_Scripts\SkryptPauzy.cs" />
     <Compile Include="Assets\_Scripts\SkryptZycia.cs" />
+    <Compile Include="Assets\_Scripts\SpecialWeapon.cs" />
     <Compile Include="Assets\_Scripts\Umrzyj.cs" />
     <Compile Include="Assets\_Scripts\Weapon.cs" />
   </ItemGroup>
