@@ -30,7 +30,6 @@ public class SkryptZycia : MonoBehaviour {
         {
             if(currentTakeHPTime < takeHPTime)
             {
-                
                 materialColor.g = 1 - ((currentTakeHPTime / takeHPTime));
                 materialColor.b = 1- ((currentTakeHPTime / takeHPTime));
                 currentTakeHPTime += Time.deltaTime;
@@ -65,6 +64,18 @@ public class SkryptZycia : MonoBehaviour {
         if(collision.gameObject.tag == "Enemy" && takeHP)
         {
             enemyCollision = true;
+        }
+    }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "addLife"){
+            if(PlayerHP < 5 && PlayerHP > 0)
+            {
+                HP[PlayerHP].enabled = true;
+                PlayerHP++;
+                Destroy(collision.gameObject);
+            }
         }
     }
 }
