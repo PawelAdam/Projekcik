@@ -30,7 +30,7 @@ public class SkryptZycia : MonoBehaviour {
             }
         }
 
-        if(PlayerHP == 1)
+        if(PlayerHP == 0)
         {
             //Koniec Gry  
             GameOver.enabled = true;
