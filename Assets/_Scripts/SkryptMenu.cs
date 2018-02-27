@@ -32,7 +32,7 @@ public class SkryptMenu : MonoBehaviour
     }
     public void PoziomStartowy()
     {
-        SceneManager.LoadScene("Scene1");
+        SceneManager.LoadScene("Poziom1");
     }
     public void TrybZrecznosciowy()
     {

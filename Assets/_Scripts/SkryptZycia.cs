@@ -14,6 +14,7 @@ public class SkryptZycia : MonoBehaviour {
     private float currentTakeHPTime;
     private bool takeHP;
     private Color materialColor;
+    private bool czy_przegrał;
     // Use this for initialization
     void Start () {
         enemyCollision = false;
@@ -22,6 +23,7 @@ public class SkryptZycia : MonoBehaviour {
         takeHP = true;
         materialColor = Color.white;
         background.color = materialColor;
+        czy_przegrał = false;
     }
 	
 	// Update is called once per frame
@@ -53,10 +55,18 @@ public class SkryptZycia : MonoBehaviour {
             }
         }
 
-        if(PlayerHP == 0)
+        if(PlayerHP <= 0)
         {
+            Time.timeScale = 0;
             //Koniec Gry  
-            GameOver.enabled = true;
+            if (!czy_przegrał)
+            {
+                GameOver.enabled = true;
+                czy_przegrał = true;
+            }
+
+            if (Input.GetKey(KeyCode.Escape))
+                GameOver.enabled = false;
         }
 	}
     public void OnCollisionEnter2D(Collision2D collision)

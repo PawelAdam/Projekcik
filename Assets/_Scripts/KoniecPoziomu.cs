@@ -15,8 +15,23 @@ public class KoniecPoziomu : MonoBehaviour {
 	void Update () {
     }
 
-    private void OnTriggerEnter2D()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        SceneManager.LoadScene("Parkour 2");
+
+        if (other.tag == "Player")
+        {
+            if (SceneManager.GetActiveScene().name == "Poziom1")
+            {
+                SceneManager.LoadScene("Poziom2", LoadSceneMode.Single);
+            }
+            if (SceneManager.GetActiveScene().name == "Parkour")
+            {
+                SceneManager.LoadScene("Parkour 2", LoadSceneMode.Single);
+            }
+            if (SceneManager.GetActiveScene().name == "Parkour 2")
+            {
+                SceneManager.LoadScene("MenuGL", LoadSceneMode.Single);
+            }
+        }
     }
 }
