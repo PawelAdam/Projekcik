@@ -8,6 +8,7 @@ public class Bullet : MonoBehaviour
     public float boomTime;
     private float currentBoomTime;
     private bool boom;
+    public AudioSource explo;
 
     void Start()
     {
@@ -24,7 +25,7 @@ public class Bullet : MonoBehaviour
         {
             if(currentBoomTime < boomTime)
             {
-                particle.transform.localScale = new Vector3(currentBoomTime*15, currentBoomTime*15, currentBoomTime*15);
+                particle.transform.localScale = new Vector3(currentBoomTime*18, currentBoomTime*18, currentBoomTime*18);
 
                 currentBoomTime += Time.deltaTime;
             }else
@@ -39,6 +40,7 @@ public class Bullet : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
+        explo.Play();
         particle.transform.position = gameObject.transform.position;
         particle.SetActive(true);
         boom = true;

@@ -5,17 +5,17 @@ using UnityEngine;
 public class SpecialWeapon : MonoBehaviour {
 
     public GameObject specialWeapon;
-    public GameObject ordinaryWeapon;
     public GameObject bulletPosition;
     public GameObject bullet;
     public float force;
     private float lastWeaponUsage;
     public float TimeToNextShoot;
-
+    public AudioSource shoot;
+    public GameObject Player;
 
 	// Use this for initialization
 	void Start () {
-        ordinaryWeapon.SetActive(false);
+        
         lastWeaponUsage = 0;
 	}
 
@@ -26,11 +26,11 @@ public class SpecialWeapon : MonoBehaviour {
         {
             if(Time.time > lastWeaponUsage + TimeToNextShoot)
             {
-
-                float camDis = Camera.main.transform.position.y - transform.position.y;
+                shoot.Play();
+                float camDis = Camera.main.transform.position.y - Player.transform.position.y;
                 Vector3 mouse = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, camDis));
 
-                float AngleRad = Mathf.Atan2(mouse.y - transform.position.y, mouse.x - transform.position.x) - (transform.rotation.eulerAngles.z-90) * Mathf.Deg2Rad;
+                float AngleRad = Mathf.Atan2(mouse.y - Player.transform.position.y, mouse.x - Player.transform.position.x) - (Player.transform.rotation.eulerAngles.z-90) * Mathf.Deg2Rad;
 
                 float y = -1 * Mathf.Cos(AngleRad);
                 float x = Mathf.Sin(AngleRad);
@@ -40,6 +40,8 @@ public class SpecialWeapon : MonoBehaviour {
                 b.GetComponent<Rigidbody2D>().AddForce(new Vector2(force*x, force*y));
                 
                 lastWeaponUsage = Time.time;
+
+                Destroy(b, 10);
             }
         }
     }

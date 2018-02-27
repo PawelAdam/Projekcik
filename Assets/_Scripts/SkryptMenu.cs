@@ -36,6 +36,7 @@ public class SkryptMenu : MonoBehaviour
     }
     public void TrybZrecznosciowy()
     {
+        Camera.main.transform.Translate( new Vector3(-21.45f, 0f, 0f) );
         SceneManager.LoadScene("Parkour");
     }
     public void ZakonczGre()
